@@ -12,3 +12,7 @@ console.log("Destinos possíveis");
 console.log(salvador, saoPaulo, rioDeJaneiro);
 console.log("Destinos possíveis - Lista proveniente de array");
 console.log(listaDeDestinos);
+
+listaDeDestinos.push("Porto Alegre");
+console.log("Destinos possíveis - Lista proveniente de array com adição de novo destino.");
+console.log(listaDeDestinos);
