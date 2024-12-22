@@ -3,5 +3,12 @@ const salvador = `Salvador`;
 const saoPaulo = `São Paulo`;
 const rioDeJaneiro = `Rio de Janeiro`;
 
+const listaDeDestinos = new Array("Salvador",
+    "São Paulo",
+    "Rio de Janeiro"
+);
+
 console.log("Destinos possíveis");
 console.log(salvador, saoPaulo, rioDeJaneiro);
+console.log("Destinos possíveis - Lista proveniente de array");
+console.log(listaDeDestinos);
